@@ -21,8 +21,8 @@ class Vertex:
     def format_vertex(self):
         return str(self.p1) + " " + str(self.p2) + " " + str(self.p3)
 def main():
-    file1 = open("Scaled.stl",'r')
-    outfile = open("Arshsucks.obj",'w')
+    file1 = open("stl_file.stl",'r')
+    outfile = open("obj_file.obj",'w')
     lines = file1.readlines()
     all_faces = []
     this_face = []
